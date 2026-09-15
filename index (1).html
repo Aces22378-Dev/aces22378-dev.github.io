@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aces — Developer</title>
+  <meta
+    name="description"
+    content="Game developer and web builder. Roblox, Three.js, web development."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+    defer
+  ></script>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- =========================
+       BACKGROUND
+  ========================== -->
+
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <canvas id="three-bg"></canvas>
+
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <header class="navbar">
+
+    <a href="#home" class="logo">
+      ! 𝓐𝓒𝓔𝓢 ⋆⭒˚.⋆</s>
+    </a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#archive">Archive</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a
+      href="https://discord.gg/MTcQgrb7fE"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="nav-button"
+    >
+      Discord ↗
+    </a>
+
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-inner">
+
+        <div class="hero-symbol">
+          ✦
+        </div>
+
+        <h1>
+          ! 𝓐𝓒𝓔𝓢 ⋆⭒˚.⋆
+        </h1>
+
+        <p class="hero-description">
+          Roblox developer, web builder, Three.js enthusiast.
+          Currently working on interactive experiences and game mechanics.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="button button-main">
+            View Projects
+            <span>↓</span>
+          </a>
+
+          <a
+            href="https://discord.gg/MTcQgrb7fE"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-glass"
+          >
+            Join Discord
+            <span>↗</span>
+          </a>
+
+        </div>
+
+        <div class="status">
+
+          <span class="status-light"></span>
+
+          <span>
+            Building in public
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section class="section" id="about">
+
+      <h2 class="section-heading">About</h2>
+
+      <div class="about-layout">
+
+        <div class="about-copy">
+
+          <p class="about-lead">
+            About <Menu></Menu>
+          </p>
+
+          <p>
+            I am a solo dev for some games, some games I might be with a team.
+          </p>
+
+        </div>
+
+
+        <div class="glass-card tech-card">
+
+          <div class="tech-group">
+            <strong>Games</strong>
+            <span>Roblox Studio, Luau, Three.js</span>
+          </div>
+
+          <div class="tech-group">
+            <strong>Web</strong>
+            <span>HTML, CSS, JavaScript</span>
+          </div>
+
+          <div class="tech-group">
+            <strong>3D</strong>
+            <span>Three.js, Blender, OnShape</span>
+          </div>
+
+          <div class="tech-group">
+            <strong>Tools</strong>
+            <span>Git, GitHub, Node.js</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
+    <section class="section" id="projects">
+
+      <h2 class="section-heading">Projects</h2>
+
+      </article>
+
+
+      <!-- OTHER PROJECTS -->
+
+      <div class="other-projects">
+
+        <article class="project-item glass-card">
+
+          <div class="project-item-header">
+            <h3>Aces</h3>
+            <span class="project-label">SERVER</span>
+          </div>
+
+          <p>
+            Small personal server. :)
+          </p>
+
+          <a href="https://discord.gg/MTcQgrb7fE" target="_blank" rel="noopener noreferrer" class="project-link">
+            Join Server →
+          </a>
+
+        </article>
+
+                <article class="project-item glass-card">
+
+          <div class="project-item-header">
+            <h3>Roblox Games</h3>
+            <span class="project-label">ROBLOX</span>
+          </div>
+
+          <p>
+             My Roblox games (Not many.. yet)
+          </p>
+
+          <a href="https://www.roblox.com/users/3894530718/profile" target="_blank" rel="noopener noreferrer" class="project-link">
+            Join Server →
+          </a>
+
+        </article>
+
+        <article class="project-item glass-card">
+
+          <div class="project-item-header">
+            <h3>Stop The Truckery</h3>
+            <span class="project-label">GAME</span>
+          </div>
+
+          <p>
+            A little fun game (free - for now) :D
+          </p>
+
+          <a href="https://aces22378-dev.github.io/Stop-The-Truckery/" target="_blank" rel="noopener noreferrer" class="project-link">
+            Website →
+          </a>
+
+        </article>
+
+        <article class="project-item glass-card">
+
+          <div class="project-item-header">
+            <h3>Deadly Dash</h3>
+            <span class="project-label">ROBLOX GAME</span>
+          </div>
+
+          <p>
+            Fun fact: The original name was "Death Dash"
+          </p>
+
+          <a href="Told you it wasn't public, why did you still click the link??? " target="_blank" rel="noopener noreferrer" class="project-link">
+            Game (Not public) →
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ARCHIVE
+    ========================== -->
+
+    <section class="section" id="archive">
+
+      <h2 class="section-heading">Development Archive</h2>
+
+      <p class="section-description">
+        Earlier games, some made it most (all :C) didn't.
+      </p>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <h4>Laser Tag</h4>
+            <span class="archive-label">Roblox</span>
+            <a href="https://www.roblox.com/games/70500439630291/Laser-Tag" target="_blank" rel="noopener noreferrer">
+              View →
+            </a>
+          </div>
+        </article>
+
+                <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <h4>Free For All Sword Game</h4>
+            <span class="archive-label">Roblox</span>
+            <a href="https://www.roblox.com/games/73172566298018/Free-For-All-Sword-Game" target="_blank" rel="noopener noreferrer">
+              View →
+            </a>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <h4>Shift 2D</h4>
+            <span class="archive-label">Roblox</span>
+            <a href="https://www.roblox.com/games/132930431639515/Shift-2D" target="_blank" rel="noopener noreferrer">
+              View →
+            </a>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <h4>Launch</h4>
+            <span class="archive-label">Roblox</span>
+            <a href="https://www.roblox.com/games/75886416801448/Launch" target="_blank" rel="noopener noreferrer">
+              View →
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="section contact" id="contact">
+
+      <div class="contact-card">
+
+        <h2>
+          Come say hello.
+        </h2>
+
+        <p>
+          Join the Discord to see what I'm building next, or just chat.
+        </p>
+
+        <a
+          href="https://discord.gg/MTcQgrb7fE"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-main"
+        >
+          Join Discord
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="footer-content">
+
+      <div class="footer-left">
+        <div class="footer-brand">
+          ! 𝓐𝓒𝓔𝓢 ⋆⭒˚.⋆<span>✦</span>
+        </div>
+        <p>
+          Game developer. Web builder. Three.js enthusiast.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://discord.gg/MTcQgrb7fE" target="_blank" rel="noopener noreferrer">Discord ↗</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Aces
+    </div>
+
+  </footer>
+
+</body>
+</html>
